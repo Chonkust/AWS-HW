@@ -8,11 +8,30 @@ body {
     background-color: purple !important;
 }
 
-.container{
+.container {
     padding: 0.1em;
     margin-top: 1px;
     margin-bottom: 1px;
     margin-left: 5px;
     margin-right: 5px;
+    float:left;
+    width: 100%
 }
 
+.dropdown-menu {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    font-size: 25px;
+    border: floralwhite;
+}
+
+.dropdown-button {
+    position: fixed;
+    float: inline-end;
+    right: 0;
+    margin-right: 25px;
+    margin-top: 5px;
+}
