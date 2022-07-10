@@ -1,4 +1,8 @@
-<script>
+// Executing in 'strict' mode
+"use strict";
+
+
+document.addEventListener("deviceready", onDeviceReady, false);
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
@@ -17,5 +21,3 @@ window.onclick = function(event) {
     }
   }
 }
-
-</script>

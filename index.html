@@ -14,7 +14,7 @@
 
 <body>
     <!-- 'div' tag defines a section is used to style with CSS or manipulated with JS -->
-    <!-- <div class="header container">
+    <div class="header container">
         <div class="dropdown-button">
             <button onclick="myFunction()" class="dropdown-menu">Helpful Links</button>
             <div id="myDropdown" class="dropdown-content">
@@ -25,7 +25,7 @@
           </div>
          <h1>Estates and Facilities</h1>
         <p>Digital form submission app  
-        </p> -->
+        </p>
 
         <!-- Option to select additional helpful resources using the-drop down menus -->
         <h2>Clickable Dropdown</h2>
@@ -40,26 +40,5 @@
   </div>
 </div>
     </div>
-<script>
-  function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function filterFunction() {
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  div = document.getElementById("myDropdown");
-  a = div.getElementsByTagName("a");
-  for (i = 0; i < a.length; i++) {
-    txtValue = a[i].textContent || a[i].innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      a[i].style.display = "";
-    } else {
-      a[i].style.display = "none";
-    }
-  }
-}
-</script>
 </body>
 </html>
